@@ -36,7 +36,12 @@ button { font-family: inherit; }
 
 /* Content area - scrollable */
 .content {
+    margin-left: 5rem;
     flex: 1;
+    padding: var(--spacing-lg);
+    z-index: 1;
+    position: relative;
+    right: 0;
     overflow-y: auto;
     overflow-x: hidden;
     height: 100%;
