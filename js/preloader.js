@@ -73,4 +73,3 @@
 
    const timer = setTimeout(finish, fallback);
 })();
-
