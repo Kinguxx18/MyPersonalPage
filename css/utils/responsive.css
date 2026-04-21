@@ -54,8 +54,7 @@
 
     /* Sidebar slides in from left */
     .sidebar {
-        position: fixed;
-        top: 70px;
+        position: absolute;
         left: 0;
         height: calc(100vh - 70px);
         width: 260px;
@@ -65,10 +64,11 @@
         box-shadow: var(--shadow-xl);
         background: var(--bg-sidebar);
         border-right: 1px solid var(--border);
+        top: -0.6rem;
     }
 
     .sidebar.open {
-        margin-top: 0;
+        margin-bottom: 0;
         transform: translateX(0);
     }
 
