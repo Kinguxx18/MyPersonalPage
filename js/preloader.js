@@ -16,7 +16,7 @@
         ) * 1000 || 1000;
     preloader.classList.remove("fade-out");
 
-    "MY PERSONAL PAGE".split("").forEach((c, i) =>{
+    "WELCOME".split("").forEach((c, i) =>{
         const span = document.createElement("span");
         span.textContent = c === " " ? "\u00A0" : c;
         span.style.setProperty("--index", i);
