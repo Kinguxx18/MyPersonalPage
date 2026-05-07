@@ -45,8 +45,6 @@
     }
 
     .section .active-section{
-        padding: auto;
-        margin: auto;
         text-align: center;
     }
 
@@ -125,6 +123,16 @@
 
     .hero-title {
         font-size: 1.75rem;
+    }
+
+    .hero-content {
+        right: 2.8rem;
+        justify-content: center;
+    }
+
+    .hero-visual {
+        right: 2.8rem;
+        justify-content: center;
     }
 
     .hero-stats {
