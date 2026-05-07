@@ -44,6 +44,11 @@
         display: none;
     }
 
+    .section .active-section{
+        padding: auto;
+        margin: auto;
+    }
+
     /* Show hamburger menu button */
     .menu-toggle {
         display: flex !important;
