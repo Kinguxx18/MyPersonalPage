@@ -47,6 +47,7 @@
     .section .active-section{
         padding: auto;
         margin: auto;
+        text-align: center;
     }
 
     /* Show hamburger menu button */
