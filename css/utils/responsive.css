@@ -126,13 +126,17 @@
     }
 
     .hero-content {
-        right: 2.8rem;
-        justify-content: center;
+        left: 42.5%;
+        transform: translateX(-50%);
+        justify-content: center; /* Centrado horizontal */
+        align-items: center;     /* Centrado vertical */
     }
 
     .hero-visual {
-        right: 2.8rem;
-        justify-content: center;
+        left: 42.5%;
+        transform: translateX(-50%);
+        justify-content: center; /* Centrado horizontal */
+        align-items: center;     /* Centrado vertical */
     }
 
     .hero-stats {
